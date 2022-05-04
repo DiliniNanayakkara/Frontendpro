@@ -40,7 +40,9 @@ function Viewgems() {
               <p className="redtext">Holiday Sale : $37,500.00</p>
               <p className="Available">Available/Fast Shipping</p>
               <p className="return">14 Day No Hassle Return Policy*</p>
-              <button className="topbtn">ADD TO CART</button>
+              <a href="checkout" className="topbtn btn">
+                ADD TO CART
+              </a>
               <div className="row py-5">
                 <div className="col-11">
                   <div className="row">

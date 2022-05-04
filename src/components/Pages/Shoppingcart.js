@@ -120,9 +120,9 @@ function Shippingcart() {
                   />
                 </div>
 
-                <button type="submit" class="continue   mt-3">
+                <a href="placeorder" type="submit" class="continue   mt-3">
                   Continue
-                </button>
+                </a>
               </form>
             </div>
             <div className="checkoutformleft col-6 p-3">

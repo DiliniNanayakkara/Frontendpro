@@ -55,6 +55,12 @@ letter-spacing: 0.05em;
 color: #FFFFFF;
 
 }
+
+.viewmorea {
+    text-decoration: none;
+    color:#1176b0;
+    font-weight: 600;
+}
 .Ruby-header {
     font-family: Lora;
 font-style: normal;

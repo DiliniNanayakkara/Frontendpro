@@ -67,10 +67,14 @@ function Home() {
           <div class="py-5 container">
             <div class="row row-cols-2 align-items-center justify-content-between row-cols-lg-5 g-2 g-lg-3">
               <div class="topcat col-3">
-                <div class="p-3">
+                <div class="p-3" href="#">
                   <center>
                     <img src={s1} />
                     <p className="ruby-p-text pt-5">Spinel</p>
+
+                    <a href="gemspage" className="viewmorea">
+                      View More
+                    </a>
                   </center>
                 </div>
               </div>
@@ -81,6 +85,10 @@ function Home() {
                   <center>
                     <img src={s2} />
                     <p className="ruby-p-text pt-5">Jadeite Jade</p>
+
+                    <a href="#" className="viewmorea">
+                      View More
+                    </a>
                   </center>
                 </div>
               </div>
@@ -90,6 +98,10 @@ function Home() {
                   <center>
                     <img src={s3} />
                     <p className="ruby-p-text pt-5">Tanzanite</p>
+
+                    <a href="#" className="viewmorea">
+                      View More
+                    </a>
                   </center>
                 </div>
               </div>
@@ -99,6 +111,10 @@ function Home() {
                   <center>
                     <img src={s4} />
                     <p className="ruby-p-text pt-5">Jadeite Jade</p>
+
+                    <a href="#" className="viewmorea">
+                      View More
+                    </a>
                   </center>
                 </div>
               </div>
@@ -108,6 +124,10 @@ function Home() {
                   <center>
                     <img src={s5} />
                     <p className="ruby-p-text pt-5">Tanzanite</p>
+
+                    <a href="#" className="viewmorea">
+                      View More
+                    </a>
                   </center>
                 </div>
               </div>
@@ -117,6 +137,10 @@ function Home() {
                   <center>
                     <img src={s6} />
                     <p className="ruby-p-text pt-5">Gem Silica Chrysocolla</p>
+
+                    <a href="#" className="viewmorea">
+                      View More
+                    </a>
                   </center>
                 </div>
               </div>
@@ -126,6 +150,10 @@ function Home() {
                   <center>
                     <img src={s7} />
                     <p className="ruby-p-text pt-5">Matched Pairs</p>
+
+                    <a href="#" className="viewmorea">
+                      View More
+                    </a>
                   </center>
                 </div>
               </div>
@@ -135,6 +163,10 @@ function Home() {
                   <center>
                     <img src={s8} />
                     <p className="ruby-p-text pt-5">Imperial Topaz</p>
+
+                    <a href="#" className="viewmorea">
+                      View More
+                    </a>
                   </center>
                 </div>
               </div>

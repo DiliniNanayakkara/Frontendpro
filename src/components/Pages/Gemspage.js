@@ -166,7 +166,43 @@ function Gemspage() {
                         </p>
 
                         <p className="product-price">US $37,500.00 </p>
-                        <p className="clickline">Click for Details</p>
+                        <a href="viewgem" className="clickline">
+                          Click for Details
+                        </a>
+                        <a
+                          href="checkout"
+                          class="btn "
+                          style={{ background: "#085784", color: "white" }}
+                        >
+                          Add to Cart
+                        </a>
+                      </div>
+                    </center>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-2">
+                  <div class="card">
+                    <center>
+                      <img
+                        src={sp}
+                        class="product-img py-3 card-img-top"
+                        alt="..."
+                      />
+
+                      <div class="card-body">
+                        <p className="card-topic">
+                          Mahenge Spinel - 3.32 carats
+                        </p>
+                        <p className="card-body-text">
+                          # SPI5316BZ 9.89 x 7.58 x 5.72 mm. Unheated, Eye Clean
+                        </p>
+
+                        <p className="product-price">US $37,500.00 </p>
+                        <a href="viewgem" className="clickline">
+                          Click for Details
+                        </a>
                         <a
                           href="#"
                           class="btn "
@@ -198,7 +234,7 @@ function Gemspage() {
                         </p>
 
                         <p className="product-price">US $37,500.00 </p>
-                        <p className="clickline">Click for Details</p>
+                        <a className="clickline">Click for Details</a>
                         <a
                           href="#"
                           class="btn "
@@ -230,7 +266,7 @@ function Gemspage() {
                         </p>
 
                         <p className="product-price">US $37,500.00 </p>
-                        <p className="clickline">Click for Details</p>
+                        <a className="clickline">Click for Details</a>
                         <a
                           href="#"
                           class="btn "
@@ -262,7 +298,7 @@ function Gemspage() {
                         </p>
 
                         <p className="product-price">US $37,500.00 </p>
-                        <p className="clickline">Click for Details</p>
+                        <a className="clickline">Click for Details</a>
                         <a
                           href="#"
                           class="btn "
@@ -294,7 +330,7 @@ function Gemspage() {
                         </p>
 
                         <p className="product-price">US $37,500.00 </p>
-                        <p className="clickline">Click for Details</p>
+                        <a className="clickline">Click for Details</a>
                         <a
                           href="#"
                           class="btn "
@@ -326,7 +362,7 @@ function Gemspage() {
                         </p>
 
                         <p className="product-price">US $37,500.00 </p>
-                        <p className="clickline">Click for Details</p>
+                        <a className="clickline">Click for Details</a>
                         <a
                           href="#"
                           class="btn "
@@ -358,7 +394,7 @@ function Gemspage() {
                         </p>
 
                         <p className="product-price">US $37,500.00 </p>
-                        <p className="clickline">Click for Details</p>
+                        <a className="clickline">Click for Details</a>
                         <a
                           href="#"
                           class="btn "
@@ -390,7 +426,7 @@ function Gemspage() {
                         </p>
 
                         <p className="product-price">US $37,500.00 </p>
-                        <p className="clickline">Click for Details</p>
+                        <a className="clickline">Click for Details</a>
                         <a
                           href="#"
                           class="btn "
@@ -422,39 +458,7 @@ function Gemspage() {
                         </p>
 
                         <p className="product-price">US $37,500.00 </p>
-                        <p className="clickline">Click for Details</p>
-                        <a
-                          href="#"
-                          class="btn "
-                          style={{ background: "#085784", color: "white" }}
-                        >
-                          Add to Cart
-                        </a>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-2">
-                  <div class="card">
-                    <center>
-                      <img
-                        src={sp}
-                        class="product-img py-3 card-img-top"
-                        alt="..."
-                      />
-
-                      <div class="card-body">
-                        <p className="card-topic">
-                          Mahenge Spinel - 3.32 carats
-                        </p>
-                        <p className="card-body-text">
-                          # SPI5316BZ 9.89 x 7.58 x 5.72 mm. Unheated, Eye Clean
-                        </p>
-
-                        <p className="product-price">US $37,500.00 </p>
-                        <p className="clickline">Click for Details</p>
+                        <a className="clickline">Click for Details</a>
                         <a
                           href="#"
                           class="btn "

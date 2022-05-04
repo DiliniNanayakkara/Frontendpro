@@ -130,7 +130,9 @@ function Checkout() {
                     slightly due to exchange rate fluctuations.
                   </div>
                 </div>
-                <button className="filterbtn">CHECKOUT</button>
+                <a href="shippingdetails" className="filterbtn btn">
+                  CHECKOUT
+                </a>
               </div>
             </div>
           </div>

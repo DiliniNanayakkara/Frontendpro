@@ -63,7 +63,7 @@ const Navbar = () => {
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
               <div class="navbar-nav">
-                <a href="#" class="nav-item nav-link active">
+                <a href="/" class="nav-item nav-link active">
                   Home
                 </a>
                 <div class="nav-item dropdown">
@@ -75,14 +75,14 @@ const Navbar = () => {
                     Shop Gems
                   </a>
                   <div class="dropdown-menu">
-                    <a href="#" class="dropdown-item">
-                      Inbox
+                    <a href="birthstones" class="dropdown-item">
+                      Birthstones
+                    </a>
+                    <a href="*" class="dropdown-item">
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Sent
-                    </a>
-                    <a href="#" class="dropdown-item">
-                      Drafts
+                      Pending
                     </a>
                   </div>
                 </div>
@@ -96,13 +96,13 @@ const Navbar = () => {
                   </a>
                   <div class="dropdown-menu">
                     <a href="#" class="dropdown-item">
-                      Inbox
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Sent
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Drafts
+                      Pending
                     </a>
                   </div>
                 </div>
@@ -116,13 +116,13 @@ const Navbar = () => {
                   </a>
                   <div class="dropdown-menu">
                     <a href="#" class="dropdown-item">
-                      Inbox
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Sent
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Drafts
+                      Pending
                     </a>
                   </div>
                 </div>
@@ -136,13 +136,13 @@ const Navbar = () => {
                   </a>
                   <div class="dropdown-menu">
                     <a href="#" class="dropdown-item">
-                      Inbox
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Sent
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Drafts
+                      Pending
                     </a>
                   </div>
                 </div>
@@ -156,13 +156,13 @@ const Navbar = () => {
                   </a>
                   <div class="dropdown-menu">
                     <a href="#" class="dropdown-item">
-                      Inbox
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Sent
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Drafts
+                      Pending
                     </a>
                   </div>
                 </div>
@@ -176,13 +176,13 @@ const Navbar = () => {
                   </a>
                   <div class="dropdown-menu">
                     <a href="#" class="dropdown-item">
-                      Inbox
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Sent
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Drafts
+                      Pending
                     </a>
                   </div>
                 </div>
@@ -196,13 +196,13 @@ const Navbar = () => {
                   </a>
                   <div class="dropdown-menu">
                     <a href="#" class="dropdown-item">
-                      Inbox
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Sent
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Drafts
+                      Pending
                     </a>
                   </div>
                 </div>
@@ -216,13 +216,13 @@ const Navbar = () => {
                   </a>
                   <div class="dropdown-menu">
                     <a href="#" class="dropdown-item">
-                      Inbox
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Sent
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Drafts
+                      Pending
                     </a>
                   </div>
                 </div>
@@ -234,13 +234,13 @@ const Navbar = () => {
                   </a>
                   <div class="dropdown-menu">
                     <a href="#" class="dropdown-item">
-                      Inbox
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Sent
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Drafts
+                      Pending
                     </a>
                   </div>
                 </div>
@@ -250,13 +250,13 @@ const Navbar = () => {
                   </a>
                   <div class="dropdown-menu">
                     <a href="#" class="dropdown-item">
-                      Inbox
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Sent
+                      Pending
                     </a>
                     <a href="#" class="dropdown-item">
-                      Drafts
+                      Pending
                     </a>
                   </div>
                 </div>
