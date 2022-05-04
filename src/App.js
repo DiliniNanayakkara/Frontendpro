@@ -16,40 +16,23 @@ import Reviews from "./components/reviews/reviews";
 import ErrorPage from "./components/Pages/Errorpage";
 
 function App() {
-  const [loading, setLoading] = useState(false);
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-  }, []);
   return (
     <div>
       <Navbar />
 
-      {loading ? (
-        <ScaleLoader
-          className="loader"
-          color={"#F5A623"}
-          loading={loading}
-          size={80}
-        />
-      ) : (
-        <Router>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/gemspage" element={<Gemspage />} />
-            <Route path="/viewgem" element={<Viewgem />} />
-            <Route path="/birthstones" element={<Birthstones />} />
-            <Route path="/shippingcart" element={<Shippingcart />} />
-            <Route path="/checkout" element={<Checkout />} />
-            <Route path="/shippingdetails" element={<Shippingdetails />} />
-            <Route path="/placeorder" element={<Placeorder />} />
-            <Route path="*" element={<ErrorPage />} />
-          </Routes>
-          <Footer />
-        </Router>
-      )}
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/gemspage" element={<Gemspage />} />
+          <Route path="/viewgem" element={<Viewgem />} />
+          <Route path="/birthstones" element={<Birthstones />} />
+          <Route path="/shippingcart" element={<Shippingcart />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/shippingdetails" element={<Shippingdetails />} />
+          <Route path="/placeorder" element={<Placeorder />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }
